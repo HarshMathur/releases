@@ -1,0 +1,22 @@
+{
+  "name": "releases",
+  "version": "1.0.0",
+  "description": "Releases for Project",
+  "main": "main.js",
+  "scripts": {
+    "publish": "publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshMathur/releases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/HarshMathur/releases#readme",
+  "updater": {
+    "url": "https://github.com/HarshMathur/releases/master/updates.json"
+  },
+  "devDependencies": {
+    "electron-simple-publisher": "^0.4.13"
+  }
+}
